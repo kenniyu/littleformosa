@@ -51,7 +51,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stockphoto1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KgK-gd-BzF">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stockphoto1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KgK-gd-BzF">
                                 <rect key="frame" x="10" y="10" width="69.5" height="69.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="8tL-VJ-gSJ"/>
@@ -107,6 +107,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="stockphoto1.jpg" width="300" height="300"/>
+        <image name="stockphoto1.jpg" width="630" height="1200"/>
     </resources>
 </document>

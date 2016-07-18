@@ -42,6 +42,19 @@ public class BaseViewController: UIViewController {
         setupStyles()
     }
     
+    public func topBarHeight() -> CGFloat {
+        return statusBarHeight() + navBarHeight()
+    }
+    
+    public func statusBarHeight() -> CGFloat {
+        let statusBarSize = UIApplication.sharedApplication().statusBarFrame.size
+        return min(statusBarSize.width, statusBarSize.height)
+    }
+    
+    public func navBarHeight() -> CGFloat {
+        return navigationController?.navigationBar.height ?? 0
+    }
+    
     public func setup() {
         title = self.navBarTitle
     }

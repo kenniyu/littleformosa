@@ -21,13 +21,13 @@ public class ProfileViewModel {
 }
 
 public class ProfileHeaderView: UIView {
-    @IBOutlet var view: UIView!
-    @IBOutlet var containerView: UIView!
-    @IBOutlet var nameLabel: UILabel!
-    @IBOutlet var headlineLabel: UILabel!
-    @IBOutlet var imageView: UIImageView!
+    @IBOutlet weak var view: UIView!
+    @IBOutlet weak var containerView: UIView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var headlineLabel: UILabel!
+    @IBOutlet weak var profileInfoWrapperView: UIView!
     
-    public static let kHeight: CGFloat = 210
+    public static let kHeight: CGFloat = 300
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
@@ -58,17 +58,13 @@ public class ProfileHeaderView: UIView {
     }
     
     public func setupStyles() {
-        containerView.backgroundColor = UIColor.whiteColor()
-        containerView.cornerRadius = 3
-        containerView.clipsToBounds = true
+        containerView.backgroundColor = UIColor.clearColor()
+        profileInfoWrapperView.backgroundColor = containerView.backgroundColor
         
         nameLabel.font = Styles.Fonts.avenirRegularFontWithSize(24)
-        nameLabel.textColor = Styles.Colors.Black
+        nameLabel.textColor = Styles.Colors.White
         headlineLabel.font = Styles.Fonts.avenirRegularFontWithSize(16)
-        headlineLabel.textColor = Styles.Colors.Gray
-        
-        imageView.cornerRadius = 2
-        imageView.clipsToBounds = true
+        headlineLabel.textColor = Styles.Colors.White
     }
     
     public func setup(dataModel: ProfileViewModel) {
@@ -79,6 +75,5 @@ public class ProfileHeaderView: UIView {
     public func loadDataIntoViews(dataModel: ProfileViewModel) {
         nameLabel.text = dataModel.name
         headlineLabel.text = dataModel.headline
-        imageView.image = dataModel.image
     }
 }

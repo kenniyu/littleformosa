@@ -47,6 +47,10 @@
 		BEFD2A471D3B647E001CE48E /* ProfileHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEFD2A461D3B647E001CE48E /* ProfileHeaderView.xib */; };
 		BEFD2A4A1D3B7A18001CE48E /* ProfileStatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFD2A481D3B7A18001CE48E /* ProfileStatsTableViewCell.swift */; };
 		BEFD2A4B1D3B7A18001CE48E /* ProfileStatsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEFD2A491D3B7A18001CE48E /* ProfileStatsTableViewCell.xib */; };
+		BEFD2A4E1D3B8934001CE48E /* ProfileEmployersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFD2A4C1D3B8934001CE48E /* ProfileEmployersTableViewCell.swift */; };
+		BEFD2A4F1D3B8934001CE48E /* ProfileEmployersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEFD2A4D1D3B8934001CE48E /* ProfileEmployersTableViewCell.xib */; };
+		BEFD2A521D3B893E001CE48E /* ProfileEducationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFD2A501D3B893E001CE48E /* ProfileEducationsTableViewCell.swift */; };
+		BEFD2A531D3B893E001CE48E /* ProfileEducationsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEFD2A511D3B893E001CE48E /* ProfileEducationsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +96,10 @@
 		BEFD2A461D3B647E001CE48E /* ProfileHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileHeaderView.xib; sourceTree = "<group>"; };
 		BEFD2A481D3B7A18001CE48E /* ProfileStatsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileStatsTableViewCell.swift; sourceTree = "<group>"; };
 		BEFD2A491D3B7A18001CE48E /* ProfileStatsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileStatsTableViewCell.xib; sourceTree = "<group>"; };
+		BEFD2A4C1D3B8934001CE48E /* ProfileEmployersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEmployersTableViewCell.swift; sourceTree = "<group>"; };
+		BEFD2A4D1D3B8934001CE48E /* ProfileEmployersTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileEmployersTableViewCell.xib; sourceTree = "<group>"; };
+		BEFD2A501D3B893E001CE48E /* ProfileEducationsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEducationsTableViewCell.swift; sourceTree = "<group>"; };
+		BEFD2A511D3B893E001CE48E /* ProfileEducationsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileEducationsTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +203,10 @@
 				BEFD2A221D3B4B37001CE48E /* ProfileTableViewCell.xib */,
 				BEFD2A481D3B7A18001CE48E /* ProfileStatsTableViewCell.swift */,
 				BEFD2A491D3B7A18001CE48E /* ProfileStatsTableViewCell.xib */,
+				BEFD2A4C1D3B8934001CE48E /* ProfileEmployersTableViewCell.swift */,
+				BEFD2A4D1D3B8934001CE48E /* ProfileEmployersTableViewCell.xib */,
+				BEFD2A501D3B893E001CE48E /* ProfileEducationsTableViewCell.swift */,
+				BEFD2A511D3B893E001CE48E /* ProfileEducationsTableViewCell.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -297,6 +309,7 @@
 				BEFD2A471D3B647E001CE48E /* ProfileHeaderView.xib in Resources */,
 				BEFD2A1B1D3B4686001CE48E /* BrowseViewController.xib in Resources */,
 				BEFD2A361D3B4F33001CE48E /* stockphoto7.jpg in Resources */,
+				BEFD2A531D3B893E001CE48E /* ProfileEducationsTableViewCell.xib in Resources */,
 				BEFD2A4B1D3B7A18001CE48E /* ProfileStatsTableViewCell.xib in Resources */,
 				BEFD2A3F1D3B5B60001CE48E /* stockphoto10.jpg in Resources */,
 				BEFD2A3D1D3B5B5C001CE48E /* stockphoto5.jpg in Resources */,
@@ -309,6 +322,7 @@
 				BE8D7E8F1D3B1833005EAA04 /* Assets.xcassets in Resources */,
 				BE8D7E8D1D3B1833005EAA04 /* Main.storyboard in Resources */,
 				BE8D7EB21D3B1D72005EAA04 /* taipei.jpg in Resources */,
+				BEFD2A4F1D3B8934001CE48E /* ProfileEmployersTableViewCell.xib in Resources */,
 				BEFD2A3B1D3B5B56001CE48E /* stockphoto2.jpg in Resources */,
 				BEFD2A301D3B4F33001CE48E /* stockphoto1.jpg in Resources */,
 				BEFD2A351D3B4F33001CE48E /* stockphoto6.jpg in Resources */,
@@ -324,10 +338,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEFD2A521D3B893E001CE48E /* ProfileEducationsTableViewCell.swift in Sources */,
 				BE8D7EA31D3B1906005EAA04 /* InitialViewController.swift in Sources */,
 				BEFD2A231D3B4B37001CE48E /* ProfileTableViewCell.swift in Sources */,
 				BEFD2A421D3B5B9E001CE48E /* RandomGenerator.swift in Sources */,
 				BE8D7E9F1D3B18C7005EAA04 /* BaseViewController.swift in Sources */,
+				BEFD2A4E1D3B8934001CE48E /* ProfileEmployersTableViewCell.swift in Sources */,
 				BEFD2A131D3B3A14001CE48E /* MainTabBarController.swift in Sources */,
 				BE8D7E9A1D3B185D005EAA04 /* UIView+.swift in Sources */,
 				BE8D7EA61D3B192F005EAA04 /* Styles.swift in Sources */,

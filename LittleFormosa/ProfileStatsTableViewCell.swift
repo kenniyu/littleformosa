@@ -76,7 +76,6 @@ public class ProfileStatsTableViewCell: UITableViewCell {
     public func setupStyles() {
         selectionStyle = .None
         
-        backgroundColor = UIColor.clearColor()
         contentView.backgroundColor = backgroundColor
         containerView.backgroundColor = Styles.Colors.White
         
@@ -85,9 +84,9 @@ public class ProfileStatsTableViewCell: UITableViewCell {
         containerView.cornerRadius = 3
         containerView.clipsToBounds = true
         
-        ageNumberLabel.font = Styles.Fonts.avenirMediumFontWithSize(24)
+        ageNumberLabel.font = Styles.Fonts.avenirRegularFontWithSize(24)
         ageLabel.font = Styles.Fonts.avenirRegularFontWithSize(16)
-        heightNumberLabel.font = Styles.Fonts.avenirMediumFontWithSize(24)
+        heightNumberLabel.font = Styles.Fonts.avenirRegularFontWithSize(24)
         heightLabel.font = Styles.Fonts.avenirRegularFontWithSize(16)
         
         ageNumberLabel.textColor = Styles.Colors.Black
